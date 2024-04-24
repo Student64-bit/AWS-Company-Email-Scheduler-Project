@@ -5,11 +5,12 @@ Creating a simple, scalable and serverless  email  schedule service with multipl
 
 ## AWS Services Used
 
-- **Amazon Simple Email Services (SES):**
-- **AWS Lambda:**
-- **Amazon Simple Storage Service (S3):**
-- **Amazon Event Bridge:**
-- **AWS IAM:**
+- **Amazon Simple Email Services (SES):** To configure an email account to send the emails out.
+- **AWS Lambda:** To send emails once it has been invoked by eventbridge.
+- **Amazon Simple Storage Service (S3):** Backbone of the project to store the email template and email recipient files.
+- **Amazon Event Bridge:** To trigger the lambda function to send emails based on the company's needs.
+- **AWS IAM:** To leverage least privileges to the different Aws services used for best security practices.
+
 
 ## 1.) Setting up the backbone of this project with an S3 bucket
 The first step was to set up an S3 bucket to store an HTML file containing the email template and a .csv file to store the recipients targeted by the email. While there are more intricate methods available to tailor to specific company needs, this project focuses on simplicity.
