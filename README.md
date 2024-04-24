@@ -29,7 +29,7 @@ Finally, an EventBridge scheduler was set up to trigger the Lambda function on a
 <br />
 <br />
 
-## 5.) Credit to Tiny Tech Tutorials for their recommendation! Check out their YouTube channel [here]((https://www.youtube.com/@TinyTechnicalTutorials).
+## 5.) Credit to Tiny Tech Tutorials for their recommendation! Check out their YouTube channel here - https://www.youtube.com/@TinyTechnicalTutorials
 Thanks to Tiny for recommending eraser.io, a website where you can set up architecture as code for your projects. This resource greatly helped in understanding the project architecture.
 <img src="https://i.imgur.com/KeBnKTq.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
